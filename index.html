@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CompraMestre</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="nav-item" href="#" id="Logo">
+        <h2><img src="./assets/img/logo.png" alt="" />CompraMestre</h2></a
+      >
+      <nav>
+        <ul>
+          <a class="nav-item" href="#account"><li>Crie sua conta</li></a>
+        </ul>
+      </nav>
+    </header>
+    <aside>
+      <div id="filter">
+        <details>
+          <summary>Filtrar</summary>
+          <ul>
+            <li>
+              <input type="checkbox" id="ja-pegos" />
+              <label for="ja-pegos"> Produtos Já Pegos</label>
+            </li>
+            <li>
+              <input type="checkbox" id="nao-pegos" />
+              <label for="nao-pegos"> Produtos Faltando</label>
+            </li>
+          </ul>
+        </details>
+      </div>
+    </aside>
+    <main>
+      <div>
+        <h3>
+          Aqui no CompraMestre é onde você consegue organizar suas compras como
+          um Mestre de verdade!
+        </h3>
+        <div id="add-quest">
+          <h3>Criar Lista</h3>
+          <ul>
+            <li>
+              <label for="name">Nome do Produto:</label>
+              <input class="input-quest" type="text" id="name" />
+            </li>
+            <li>
+              <label for="end-date">Quantidade:</label>
+              <input class="input-quest" type="number" id="quantidade" />
+            </li>
+            <li>
+              <label for="price">Preço:</label>
+              <input class="input-quest" type="number" id="price" />
+            </li>
+          </ul>
+          <button id="submit">
+            <p>Criar</p>
+          </button>
+        </div>
+      </div>
+      <div id="create-tables">
+        <div id="div-table">
+          <h1>Compras</h1>
+          <div id="caixa-soma">
+            <h4>Soma total:</h4>
+            <h5 id="mostrasoma">00,00</h5>
+            <button id="soma">Somar</button>
+          </div>
+          <table id="tabela">
+            <tr>
+              <th class="tabela-th">Feito</th>
+              <th class="tabela-th">Produtos</th>
+              <th class="tabela-th">Quantidade</th>
+              <th class="tabela-th">Preço</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h2>Visite nossas redes sociais</h2>
+      <a href=""> <img src="./assets/img/instagram.png" alt="" /></a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
