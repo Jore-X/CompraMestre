@@ -61,11 +61,13 @@ main h3 {
 main div{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 footer {
+  width: 100%;
+  height: 100%;
   background-color: #3fa3ca;
   position: sticky;
   display: flex;
