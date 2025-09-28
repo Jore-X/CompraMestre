@@ -65,7 +65,7 @@ main div{
   align-items: center;
 }
 
-footer {
+/* footer {
   width: 100%;
   height: 100%;
   background-color: #3fa3ca;
@@ -76,7 +76,7 @@ footer {
   padding: 2rem;
   bottom: 0;
   box-shadow: 0 -5px 5px burlywood;
-}
+} */
 ul {
   list-style: none;
 }
